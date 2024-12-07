@@ -1,0 +1,38 @@
+{
+  "name": "kana-shift",
+  "version": "1.0.0",
+  "description": "A npm package for converting between half and full-width katakana.",
+  "type": "module",
+  "main": "index.mjs",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codywahl/kana-shift.git"
+  },
+  "keywords": [
+    "katakana",
+    "conversion",
+    "typescript",
+    "japanese",
+    "utilities",
+    "half-width",
+    "full-width"
+  ],
+  "author": "Cody Wahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codywahl/kana-shift/issues"
+  },
+  "homepage": "https://github.com/codywahl/kana-shift#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "esbuild": "^0.24.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
